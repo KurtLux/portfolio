@@ -5,20 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kurt's Portfolio</title>
+    <link href="./resources/styles.css" rel="stylesheet" type="text/css">
 </head>
 <nav>
-    <ul>
-        <li href="about me">About Me Now</li>
+    <ul class="nav">
+        <li><a href="abouteme">About Me Now</a></li>
         <li>Curious about the past?</li>
         <li>Projects</li>
-        <li href="contact">Contact</li>
+        <li><a href="contact">Contact</a></li>
     </ul>
 </nav>
 <body>
-    <div class="about me">
+    <div class="aboutme">
         <h1>Hi, I'm Kurt Bourscheid</h1>
         <p>I'm a biologist/brewer who decided to start a new carrer. Now I'm 
-            a dev student who is on the way to become a full stack programmer. </p>
+            a dev student who is on the way to become a full stack programmer. 
+        Born and raised in Brazil, I currently live in Differdange, Luxembourgh.</p>
     </div>
     <section class="softskills">
         <h2>Soft Skills</h2>
@@ -29,7 +31,7 @@
             <li>Coffee Maker</li>
         </ul>
     </section>
-    <section class="digital languages">
+    <section class="languages">
         <h2>Digital Languages</h2>
         <ul>
             <li>HTML5</li>
@@ -38,27 +40,34 @@
             <li>Git</li>
         </ul>
     </section>
-    <section class="digital tools">
+    <section class="tools">
         <h2>Digital Tools</h2>
         <ul>
             <li>Figma</li>
             <li>GitHub</li>
+            <li></li>
+            <li></li>
         </ul>
     </section>
     <section class="projects">
         <h2>Projects</h2>
-        <p>Besides having opened two companies, there's nothing much to talk about.
-            No professional experiences in IT so far.
+        <p>Besides having opened two companies, I have no professional experiences in
+             IT so far. But if you want to know more about what I have done in the 
+             past few years, click <a href="./past.html">here</a>. It's quite interesting.
         </p>
     </section>
     <footer class="contact">
         <h3>Contact Information</h3>
-        <ul>
-            <li>E-mail: bourscheid@gmail.com</li>
-            <li>Tel: +352 661 830 742</li>
-            <li>Instagram: kurt.bourscheid</li>
-            <li>GitHub: KurtLux</li>
-        </ul>
+        <div class="footleft">
+            E-mail: bourscheid@gmail.com
+            <br>
+            Tel: +352 661 830 742
+        </div>
+        <div class="footright">
+            Instagram: kurt.bourscheid
+            <br>
+            GitHub: KurtLux
+        </div>
     </footer>
 </body>
 </html>

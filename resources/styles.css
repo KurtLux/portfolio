@@ -1,0 +1,200 @@
+.nav li{
+    display: inline-block;
+    font-family: helvetica;
+    font-size: 14px;
+    text-shadow: 1px;
+    text-decoration: underline;
+    font-weight: 700;
+    margin-left: 180px;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+* {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(198, 179, 179);
+}
+
+.aboutme {
+    display: block;
+    margin-top: 5em;
+    margin-left: 20em;
+    margin-right: 20em;
+    background-color: indianred;
+    border-radius: 50px;
+}
+
+.aboutme h1 {
+    text-align: center;
+    text-shadow: 1px 1px 3px ;
+    font-weight: 700;
+    font-size: 40px;
+    background-color: indianred;
+    padding-top: 1em;
+    border-radius: 50px;
+}
+.aboutme p {
+    text-align: center;
+    font-size: 18px;
+    background-color: indianred;
+    padding-bottom: 1em;
+    border-radius: 50px;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-shadow: 0.5px 0.5px 0.5px;
+    }
+
+.softskills {
+    float: left;
+    width: 25%;
+    background-color: indianred;
+    border-radius: 20px;
+    margin: 1.5em;
+    margin-left: 7em;
+}
+.softskills h2 {
+    background-color: indianred;
+    border-radius: 20px;
+    text-shadow: 1px 1px 2px;
+    font-weight: 700;
+    font-size: 32px;
+    padding-left: 1em;
+}
+
+.softskills ul {
+    background-color: indianred;
+    font-size: 18px;
+    list-style-type: none;  
+    text-shadow: 0.5px 0.5px 0.5px;  
+}
+
+.softskills li {
+    background-color: indianred;
+}
+
+.languages {
+    float: left;
+    width: 25%;
+    background-color: indianred;
+    border-radius: 20px;
+    margin: 1.5em;
+    margin-left: 2.5em;
+}
+.languages h2 {
+    background-color: indianred;
+    border-radius: 20px;
+    text-shadow: 1px 1px 2px;
+    font-weight: 700;
+    font-size: 32px;
+    padding-left: 1em;
+}
+
+.languages ul {
+    background-color: indianred;
+    font-size: 18px;
+    list-style-type: none;
+    text-shadow: 0.5px 0.5px 0.5px;
+}
+
+.languages li {
+    background-color: indianred;
+}
+
+.tools {
+        float: right;
+        width: 25%;
+        background-color: indianred;
+        border-radius: 20px;
+        margin: 1.5em;
+        margin-right: 7em;
+        margin-left: 1em;
+}
+.tools h2 {
+        background-color: indianred;
+        border-radius: 20px;
+        text-shadow: 1px 1px 2px;
+        font-weight: 700;
+        font-size: 32px;
+        padding-left: 1em;
+    }
+    
+.tools ul {
+        background-color: indianred;
+        font-size: 18px;
+        list-style-type: none;
+        text-shadow: 0.5px 0.5px 0.5px;
+}
+
+.tools li {
+    background-color: indianred;
+}
+.projects {
+    display: block;
+    width: auto;
+    background-color: indianred;
+    border-radius: 20px;
+    margin: 2em;
+    margin-top: 20em;
+    margin-left: 20em;
+    margin-right: 20em;
+}
+
+.projects h2 {
+    text-align: center;
+    text-shadow: 1px 1px 2px ;
+    font-weight: 700;
+    font-size: 32px;
+    background-color: indianred;
+    padding-top: 1em;
+    border-radius: 50px;
+}
+
+.projects p {
+    text-align: center;
+    font-size: 18px;
+    background-color: indianred;
+    padding-bottom: 1em;
+    border-radius: 50px;
+    text-shadow: 0.5px 0.5px 0.5px;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.contact {
+    width: auto;
+    margin-top: 2em;
+}
+
+.contact h3 {
+    padding-left: 2.1em;
+    text-shadow: 1px 1px 0.5px;
+    padding-top: 1em;
+}
+
+.footleft {
+    font-size: 16px;
+    margin-left: 2em;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 20%;
+    float: left;
+    display: inline;
+    margin-bottom: 2em;
+}
+
+.footright {
+    font-size: 16px;
+    margin-left: 2em;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 20%;
+    float: left;
+    display: inline;
+    margin-bottom: 2em;
+}
