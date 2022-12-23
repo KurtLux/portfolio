@@ -57,7 +57,11 @@
     text-shadow: 0.5px 0.5px 0.5px;
     }
 
-.photo {
+aside {
+    position: relative;
+}
+
+#photo {
     float:left;
     width: 13%;
     height: 13%;
